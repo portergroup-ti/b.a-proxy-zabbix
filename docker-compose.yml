@@ -4,7 +4,7 @@ services:
 #### openfire##########
 
  Openfire:
-  image: nasqueron/openfire:latest
+  image: portergroup/openfire:latest
   restart: always
   ports:
     - "9090:9090"
